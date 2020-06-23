@@ -54,6 +54,7 @@ hr {
   border-width: 8px;
   width: 5%;
   margin: 100px auto;
+  clear: both;
 }
 
 .top-container {
@@ -146,13 +147,14 @@ hr {
 }
 
 .computer-img{
-  width: 25%; /*scaled 25% to its parent (skill-row)*/
+  /*width: 25%; scaled 25% to its parent (skill-row)*/
+  width: 100px;
   float: left; /*floats to the left of another object*/
   margin-right: 30px;
 }
 
 .handball-img {
-  width: 25%;
+  width: 100px;
   float: right;
   margin-left: 30px;
 }
